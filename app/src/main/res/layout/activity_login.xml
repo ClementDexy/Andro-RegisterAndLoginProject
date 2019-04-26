@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textColor="#827717"
+        android:id="@+id/tv_login"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_login"
+        android:layout_width="224dp"
+        android:layout_height="222dp"
+        android:layout_below="@+id/tv_login"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/security" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/email"
+        android:focusable="true"
+        android:hint="Enter your Email"
+        android:textColorHighlight="#2E7D32"
+        android:textColorHint="#33691E"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/img_login"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_below="@+id/email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/email"
+        android:layout_alignEnd="@+id/email"
+        android:textColorHint="#33691E"
+        android:hint="Enter your Password"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts left:"
+        android:id="@+id/attempts"
+        android:layout_below="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="count down"
+        android:id="@+id/counter"
+        android:layout_alignTop="@+id/attempts"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/password"
+        android:layout_toEndOf="@+id/attempts"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+         />
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_below="@+id/attempts"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/colorPrimaryDark"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/attempts"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/btn_login"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorPrimaryDark"/>
+
+
+</RelativeLayout>

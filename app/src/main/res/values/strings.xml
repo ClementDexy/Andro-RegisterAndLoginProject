@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RestaurantApp</string>
+    <string name="settings">Settings</string>
+    <string name="profile_picture">Profile picture</string>
+
+    <string name="my_name">myname</string>
+    <string name="example_com">example_com</string>
+    <string name="add_dish">Add dish</string>
+    <string name="add_receipts">Add Receits</string>
+    <string name="my_account">My_Account</string>
+    <string name="change_password">change_password</string>
+    <string name="changeprofile">changeprofile</string>
+    <string name="change_profile_picture">change_profile_picture</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="viewdishes">viewdishes</string>
+    <string name="view_dishes">view_dishes</string>
+    <string name="view_receipts">view_receipts</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="username">Username</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="student_registration">STUDENT REGISTRATION</string>
+</resources>
