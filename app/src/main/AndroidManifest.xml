@@ -9,36 +9,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".Login">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Registration">
+            <intent-filter>
+                <action android:name=".Registration" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name=".MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
 
-            <activity android:name=".Registration">
-                <intent-filter>
-                    <action android:name=".Registration" />
+        <activity android:name=".DishList">
 
-                    <category android:name="android.intent.category.DEFAULT" />
-                </intent-filter>
-            </activity>
+            <intent-filter>
+                <action android:name=".DishList" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
 
-        <activity android:name=".MainActivity">
-        <intent-filter>
-            <action android:name=".MainActivity" />
-
-            <category android:name="android.intent.category.DEFAULT" />
-        </intent-filter>
-    </activity>
-
-
-
-
-
+        </activity>
     </application>
 
 </manifest>
